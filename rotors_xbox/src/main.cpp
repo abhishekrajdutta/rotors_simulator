@@ -13,7 +13,7 @@ class TeleopQuad
 		void joyCallback(const sensor_msgs::Joy::ConstPtr& joy);
 		ros::NodeHandle nh;
 
-		double gainx=0.1,gainy=0.1,gainz=0.01,gainr=1,gainp=1,gainyaw=0.1;
+		double gainx=0.1,gainy=0.1,gainz=0.1,gainr=1,gainp=1,gainyaw=0.1;
 		double x=0,y=0,z=1,roll=0,pitch=0,yaw=0;
 		tf::Quaternion q;
   		ros::Subscriber joy_sub;
