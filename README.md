@@ -1,6 +1,8 @@
 This is a version of the RotorS simulator with a package added for a UAV to be controlled via an xbox controller. To launch the package use
 
+```
  $ roslaunch rotors_xbox joy.launch
+```
 
 RotorS
 ===============
